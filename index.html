@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Café Dé Meet | Where Conversations Meet Coffee</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Playfair+Display:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="transitioning">
+
+    <div id="cursor">
+        <img src="cursor.png" alt="Cursor">
+    </div>
+
+    <div id="curtain-layer">
+        <div class="curtain-panel left-panel"></div>
+        <div class="curtain-panel right-panel"></div>
+    </div>
+
+    <div class="page-content">
+
+        <nav class="navbar">
+            <div class="container nav-flex">
+                <a href="index.html" class="logo">Café Dé Meet.</a>
+                <ul class="nav-links">
+                    <li><a href="#about">Our Story</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="#gallery">Ambience</a></li>
+                    <li><a href="#visit" class="btn-nav">Visit Us</a></li>
+                </ul>
+                <div class="hamburger"><span></span><span></span><span></span></div>
+            </div>
+        </nav>
+
+        <header class="hero">
+            <div class="hero-overlay"></div>
+            <div class="hero-content">
+                <h1>Sip. Savor. Slow Down.</h1>
+                <p>Experience the finest blend of artisanal coffee and quiet moments.</p>
+                <div class="hero-btns">
+                    <a href="menu.html" class="btn btn-primary">View Full Menu</a>
+                    <a href="#visit" class="btn btn-outline">Book a Table</a>
+                </div>
+            </div>
+        </header>
+
+        <section id="about" class="section about">
+            <div class="container split-layout">
+                
+                <div class="text-block">
+                    <span class="subheading">Since 2024</span>
+                    <h2>Roast by Day. <br>Rhythm by Night.</h2>
+                    
+                    <p>Café Dé Meet wasn't built just for the morning rush. We exist for the moments that happen after the coffee is poured.</p>
+                    
+                    <p>Located in the pulsing heart of <strong>Piplod</strong>, we are a sanctuary of silence by day. But by night, the lights dim and the volume rises. From <strong>Acoustic Soul Sessions</strong> to high-energy <strong>Bollywood Trance</strong> nights, we transform into Surat's cultural pulse.</p>
+                    
+                    <div class="signature-block" style="margin-top: 30px;">
+                        <p class="signature-text" style="font-size: 0.8rem; letter-spacing: 2px; text-transform: uppercase;">Welcome to the vibe,</p>
+                        <h3 style="font-family: 'Great Vibes', cursive; font-size: 2.5rem; transform: rotate(-5deg); margin-top: 5px;">Team Dé Meet</h3>
+                    </div>
+                </div>
+
+                <div class="image-block">
+                    <img src="nightlife.jpg" alt="Cafe Nightlife Ambience">
+                </div>
+
+            </div>
+        </section>
+
+        <section class="section menu-highlight">
+            <div class="container">
+                <div class="section-header text-center">
+                    <span class="subheading">Taste the Art</span>
+                    <h2>Curated Favorites</h2>
+                </div>
+                <div class="menu-grid">
+                    <div class="menu-card">
+                        <img src="https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80" alt="Latte">
+                        <div class="menu-info"><h3>Signature Latte</h3><p>Rich espresso with velvety steamed milk.</p></div>
+                    </div>
+                    <div class="menu-card">
+                        <img src="https://images.unsplash.com/photo-1550304943-4f24f54ddde9?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80" alt="Toast">
+                        <div class="menu-info"><h3>All-Day Brunch</h3><p>Avocado toast, poached eggs, and greens.</p></div>
+                    </div>
+                    <div class="menu-card">
+                        <img src="https://images.unsplash.com/photo-1579306194872-64d3b7bac4c2?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80" alt="Cake">
+                        <div class="menu-info"><h3>Artisan Pastries</h3><p>Freshly baked croissants and cakes.</p></div>
+                    </div>
+                </div>
+                <div class="text-center" style="margin-top: 2rem;">
+                    <a href="menu.html" class="btn btn-dark">See Full Menu</a>
+                </div>
+            </div>
+        </section>
+
+        <footer id="visit" class="footer">
+            <div class="container footer-grid">
+                <div class="footer-brand"><h2>Café Dé Meet.</h2></div>
+                <div class="footer-info">
+                    <p style="margin-bottom: 5px;">109, First Floor, International Business Centre (IBC)</p>
+                    <p style="margin-bottom: 15px;">Piplod, Surat, Gujarat 395007</p>
+                    
+                    <p><strong>Reservations:</strong> <a href="tel:8980913000" style="border-bottom: 1px dotted #fff;">+91 89809 13000</a></p>
+                    <p style="margin-top: 10px; font-size: 0.9rem;">Open Daily: 11:00 AM - 11:00 PM</p>
+                </div>
+            </div>
+            <div class="copyright"><p>&copy; 2026 Café Dé Meet. All rights reserved.</p></div>
+        </footer>
+
+    </div>
+
+<script>
+    const body = document.body;
+    const cursor = document.getElementById('cursor');
+
+    /* --- 1. CURTAIN LOGIC --- */
+    window.addEventListener('load', () => {
+        setTimeout(() => { body.classList.remove('transitioning'); }, 500);
+    });
+
+    document.querySelectorAll('a').forEach(link => {
+        link.addEventListener('click', function(e) {
+            const target = this.getAttribute('href');
+            if (target && target.includes('.html') && !target.startsWith('#')) {
+                e.preventDefault();
+                body.classList.add('transitioning');
+                setTimeout(() => { window.location.href = target; }, 1000);
+            }
+        });
+    });
+
+    /* --- 2. CURSOR MOVEMENT --- */
+    document.addEventListener('mousemove', (e) => {
+        cursor.style.left = e.clientX + 'px';
+        cursor.style.top = e.clientY + 'px';
+    });
+
+    /* --- 3. COLOR ZONES (Manual Mode) --- */
+    const darkSelectors = '.hero, .footer, .menu-hero, .btn-primary, #curtain-layer';
+
+    document.addEventListener('mouseover', (e) => {
+        if (e.target.closest(darkSelectors)) {
+            cursor.classList.add('is-white');
+        } else if (body.classList.contains('transitioning')) {
+            cursor.classList.add('is-white');
+        } else {
+            cursor.classList.remove('is-white');
+        }
+    });
+
+    /* --- 4. ANIMATIONS --- */
+    document.addEventListener('mousedown', () => body.classList.add('clicking'));
+    document.addEventListener('mouseup', () => body.classList.remove('clicking'));
+
+    document.querySelectorAll('a, button, .btn').forEach(el => {
+        el.addEventListener('mouseenter', () => body.classList.add('hovering'));
+        el.addEventListener('mouseleave', () => body.classList.remove('hovering'));
+    });
+    
+    // Mobile Nav
+    const hamburger = document.querySelector('.hamburger');
+    const navLinks = document.querySelector('.nav-links');
+    if(hamburger){ hamburger.addEventListener('click', () => { navLinks.classList.toggle('active'); }); }
+</script>
+</body>
+</html>

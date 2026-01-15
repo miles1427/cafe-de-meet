@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu | Café D</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Playfair+Display:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="transitioning">
+
+    <div id="cursor">
+        <img src="cursor.png" alt="Cursor">
+    </div>
+
+    <div id="curtain-layer">
+        <div class="curtain-panel left-panel"></div>
+        <div class="curtain-panel right-panel"></div>
+    </div>
+
+    <div class="page-content">
+
+        <header class="menu-hero">
+            <div class="container text-center">
+                <a href="index.html" style="font-size:0.8rem; text-transform:uppercase; color:var(--accent); display:block; margin-bottom:10px;">&larr; Back to Home</a>
+                <h1>Our Menu</h1>
+                <p class="sub-title">Taste the Art of Coffee & Conversation</p>
+            </div>
+        </header>
+
+        <nav class="menu-nav-sticky">
+            <div class="container nav-scroll-container">
+                <a href="#hot-coffee">Espresso</a>
+                <a href="#cold-brew">Cold Brews</a>
+                <a href="#snackers">Snackers</a>
+                <a href="#signature">Signatures</a>
+                <a href="#mains">Mains</a>
+                <a href="#pizza">Pizza</a>
+                <a href="#dessert">Dessert</a>
+            </div>
+        </nav>
+
+        <div class="container menu-container">
+
+            <div id="hot-coffee" class="menu-section">
+                <h2 class="section-title">Espresso Bar</h2>
+                <div class="menu-list">
+                    <div class="menu-item"><div class="item-header"><span class="item-name">Espresso</span><span class="dots"></span><span class="item-price">179</span></div></div>
+                    <div class="menu-item"><div class="item-header"><span class="item-name">Americano</span><span class="dots"></span><span class="item-price">189</span></div></div>
+                    <div class="menu-item"><div class="item-header"><span class="item-name">Cortado</span><span class="dots"></span><span class="item-price">199</span></div></div>
+                    <div class="menu-item"><div class="item-header"><span class="item-name">Cappuccino</span><span class="dots"></span><span class="item-price">219</span></div></div>
+                    <div class="menu-item"><div class="item-header"><span class="item-name">Flat White</span><span class="dots"></span><span class="item-price">219</span></div></div>
+                    <div class="menu-item"><div class="item-header"><span class="item-name">Red Velvet Latte</span><span class="dots"></span><span class="item-price">259</span></div><p class="item-desc">A rich, velvety twist on the classic latte.</p></div>
+                    <div class="menu-item"><div class="item-header"><span class="item-name">Hot Chocolate</span><span class="dots"></span><span class="item-price">299</span></div></div>
+                </div>
+            </div>
+
+            <div id="cold-brew" class="menu-section">
+                <h2 class="section-title">Cold Brews</h2>
+                <div class="menu-list">
+                    <div class="menu-item"><div class="item-header"><span class="item-name">Classic Cold Brew</span><span class="dots"></span><span class="item-price">199</span></div></div>
+                    <div class="menu-item"><div class="item-header"><span class="item-name">Dark + Fruity</span><span class="dots"></span><span class="item-price">239</span></div></div>
+                    <div class="menu-item"><div class="item-header"><span class="item-name">Vietnamese Cold Brew</span><span class="dots"></span><span class="item-price">259</span></div><p class="item-desc">Strong brew with sweet condensed milk.</p></div>
+                    <div class="menu-item"><div class="item-header"><span class="item-name">Beer De Meet</span><span class="dots"></span><span class="item-price">299</span></div><p class="item-desc">Non-alcoholic coffee brew with a frothy head.</p></div>
+                </div>
+            </div>
+
+            <div id="snackers" class="menu-section">
+                <h2 class="section-title">Snackers & Toast</h2>
+                <div class="menu-list">
+                    <div class="menu-item"><div class="item-header"><span class="item-name">Messy Fries</span><span class="dots"></span><span class="item-price">299</span></div></div>
+                    <div class="menu-item"><div class="item-header"><span class="item-name">Mumbai Masala Sandwich</span><span class="dots"></span><span class="item-price">349</span></div></div>
+                    <div class="menu-item"><div class="item-header"><span class="item-name">Pesto Momotaro Toast</span><span class="dots"></span><span class="item-price">329</span></div><p class="item-desc">Toasted sourdough, creamy pesto cheese, arugula, Momotaro tomatoes.</p></div>
+                    <div class="menu-item"><div class="item-header"><span class="item-name">Hummus Sandwich</span><span class="dots"></span><span class="item-price">349</span></div><p class="item-desc">Sourdough with garlic labneh, creamy hummus, falafel patty.</p></div>
+                    <div class="menu-item"><div class="item-header"><span class="item-name">Avocado Toast</span><span class="dots"></span><span class="item-price">549</span></div><p class="item-desc">Sourdough, sunflower seeds, and sour cream.</p></div>
+                </div>
+            </div>
+
+            <div id="signature" class="menu-section">
+                <h2 class="section-title">Café D Signatures</h2>
+                <div class="menu-list">
+                    <div class="menu-item highlight-card">
+                        <div class="item-header"><span class="item-name">Spicy Peri Peri Wrap</span><span class="dots"></span><span class="item-price">349</span></div>
+                        <p class="item-desc">Crispy cottage cheese, lettuce, jalapeños, wrapped in fiery peri peri sauce.</p>
+                    </div>
+                    <div class="menu-item highlight-card">
+                        <div class="item-header"><span class="item-name">Sautéed Cottage Cheese</span><span class="dots"></span><span class="item-price">499</span></div>
+                        <p class="item-desc">Exotic vegetables, garlic, olive oil, and balsamic vinegar.</p>
+                    </div>
+                    <div class="menu-item highlight-card">
+                        <div class="item-header"><span class="item-name">Creamy Mushroom Crostini</span><span class="dots"></span><span class="item-price">499</span></div>
+                        <p class="item-desc">Baguette, creamy mushrooms, sour cream, cherry tomatoes, olives.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div id="mains" class="menu-section">
+                <h2 class="section-title">Mains & Bowls</h2>
+                <div class="menu-list">
+                    <div class="menu-item"><div class="item-header"><span class="item-name">Hawkers Bowl</span><span class="dots"></span><span class="item-price">320</span></div><p class="item-desc">Umami chilli paneer, fragrant fried rice, crispy wonton chips.</p></div>
+                    <div class="menu-item"><div class="item-header"><span class="item-name">Creamy Gochujang Spaghetti</span><span class="dots"></span><span class="item-price">499</span></div><p class="item-desc">Spaghetti tossed in rich gochujang cream sauce.</p></div>
+                    <div class="menu-item"><div class="item-header"><span class="item-name">Burnt Garlic Rice</span><span class="dots"></span><span class="item-price">599</span></div><p class="item-desc">Cottage cheese, exotic vegetables, Shoyu gravy.</p></div>
+                    <div class="menu-item"><div class="item-header"><span class="item-name">Paneer Makhani Bowl</span><span class="dots"></span><span class="item-price">599</span></div><p class="item-desc">Marinated paneer, makhni gravy, jeera rice, lacha pyaaz, papad.</p></div>
+                </div>
+            </div>
+
+            <div id="pizza" class="menu-section">
+                <h2 class="section-title">The Dough Stories (11")</h2>
+                <div class="menu-list">
+                    <div class="menu-item"><div class="item-header"><span class="item-name">Classic Margherita</span><span class="dots"></span><span class="item-price">649</span></div></div>
+                    <div class="menu-item"><div class="item-header"><span class="item-name">Caprese</span><span class="dots"></span><span class="item-price">749</span></div></div>
+                    <div class="menu-item"><div class="item-header"><span class="item-name">Truffle Pizza</span><span class="dots"></span><span class="item-price">849</span></div><p class="item-desc">Rich truffle flavors. Add Truffle Oil (+139).</p></div>
+                    <div class="menu-item"><div class="item-header"><span class="item-name">Half & Half Pizza</span><span class="dots"></span><span class="item-price">849</span></div></div>
+                </div>
+            </div>
+
+            <div id="dessert" class="menu-section">
+                <h2 class="section-title">Sweet Heaven</h2>
+                <div class="menu-list">
+                    <div class="menu-item"><div class="item-header"><span class="item-name">Butter Croissant</span><span class="dots"></span><span class="item-price">199</span></div></div>
+                    <div class="menu-item"><div class="item-header"><span class="item-name">Gourmet Brownie</span><span class="dots"></span><span class="item-price">299</span></div></div>
+                    <div class="menu-item"><div class="item-header"><span class="item-name">NYC Cheesecake</span><span class="dots"></span><span class="item-price">299</span></div></div>
+                </div>
+            </div>
+
+        </div> <footer class="footer">
+            <p>&copy; 2026 Café D. All rights reserved.</p>
+        </footer>
+
+    </div> <script>
+        const body = document.body;
+        const cursor = document.getElementById('cursor');
+
+        /* --- 1. CURTAIN LOGIC --- */
+        window.addEventListener('load', () => {
+            setTimeout(() => { body.classList.remove('transitioning'); }, 500);
+        });
+
+        document.querySelectorAll('a').forEach(link => {
+            link.addEventListener('click', function(e) {
+                const target = this.getAttribute('href');
+                if (target && target.includes('.html') && !target.startsWith('#')) {
+                    e.preventDefault();
+                    body.classList.add('transitioning');
+                    setTimeout(() => { window.location.href = target; }, 1000);
+                }
+            });
+        });
+
+        /* --- 2. CURSOR MOVEMENT --- */
+        document.addEventListener('mousemove', (e) => {
+            cursor.style.left = e.clientX + 'px';
+            cursor.style.top = e.clientY + 'px';
+        });
+
+        /* --- 3. COLOR ZONES (Manual Mode) --- */
+        const darkSelectors = '.hero, .footer, .menu-hero, .btn-primary, #curtain-layer';
+
+        document.addEventListener('mouseover', (e) => {
+            if (e.target.closest(darkSelectors)) {
+                cursor.classList.add('is-white');
+            } else if (body.classList.contains('transitioning')) {
+                cursor.classList.add('is-white');
+            } else {
+                cursor.classList.remove('is-white');
+            }
+        });
+
+        /* --- 4. ANIMATIONS --- */
+        document.addEventListener('mousedown', () => body.classList.add('clicking'));
+        document.addEventListener('mouseup', () => body.classList.remove('clicking'));
+
+        document.querySelectorAll('a, button, .btn').forEach(el => {
+            el.addEventListener('mouseenter', () => body.classList.add('hovering'));
+            el.addEventListener('mouseleave', () => body.classList.remove('hovering'));
+        });
+    </script>
+</body>
+</html>
