@@ -287,3 +287,19 @@ body.transitioning .page-content {
     .split-layout { flex-direction: column; }
     .image-block { width: 100%; margin-top: 30px; }
 }
+
+/* =========================================
+   8. MOBILE OPTIMIZATIONS (FIX CURSOR)
+   ========================================= */
+
+@media (max-width: 1024px) {
+    /* 1. Hide the Custom Coffee Cup */
+    #cursor {
+        display: none !important;
+    }
+
+    /* 2. Restore the Default System Touch/Pointer */
+    body, a, button, .btn, .curtain-panel, .hero, .footer {
+        cursor: auto !important; /* Bring back default behavior */
+    }
+}
